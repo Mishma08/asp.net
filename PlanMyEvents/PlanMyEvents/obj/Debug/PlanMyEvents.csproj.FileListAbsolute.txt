@@ -1,0 +1,6 @@
+c:\users\אושרי\documents\visual studio 2013\Projects\PlanMyEvents\PlanMyEvents\bin\PlanMyEvents.dll.config
+c:\users\אושרי\documents\visual studio 2013\Projects\PlanMyEvents\PlanMyEvents\bin\PlanMyEvents.dll
+c:\users\אושרי\documents\visual studio 2013\Projects\PlanMyEvents\PlanMyEvents\bin\PlanMyEvents.pdb
+c:\users\אושרי\documents\visual studio 2013\Projects\PlanMyEvents\PlanMyEvents\obj\Debug\PlanMyEvents.csprojResolveAssemblyReference.cache
+c:\users\אושרי\documents\visual studio 2013\Projects\PlanMyEvents\PlanMyEvents\obj\Debug\PlanMyEvents.dll
+c:\users\אושרי\documents\visual studio 2013\Projects\PlanMyEvents\PlanMyEvents\obj\Debug\PlanMyEvents.pdb

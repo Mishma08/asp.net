@@ -1,0 +1,30 @@
+﻿
+
+body {
+    background-color: azure;
+}
+.Title {
+    margin-right: auto;
+    margin-left:37%;
+}
+#About {
+    color:ButtonShadow;
+    font-size: 30px;
+
+}
+#LoginAndRegister {
+    text-align:center;
+}
+
+.LoginLabel {
+    margin-left:initial;
+    color: red;
+}
+#ButtonRegister {
+   
+    margin-right:50px;    
+}
+.Req {
+    color:red;
+}
+

@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="PlanMyEvents.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <!-- Bootstrap core CSS -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom styles for this template -->
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet"/>
+    <script src="http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">    
+            <div class="header clearfix">
+                <nav>
+                    <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active"><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/HomePage.aspx">Home</asp:HyperLink></li>
+                    <li role="presentation"><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/About.aspx">About</asp:HyperLink></li>
+                    <li role="presentation"><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Logout.aspx">Logout</asp:HyperLink></li>
+                    </ul>
+                </nav>
+                <h3 class="text-muted">
+                    <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/User.aspx">  Plan My Event</asp:HyperLink>
+                  
+
+                </h3>
+            </div>
+
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+                
+            <footer class="footer">
+                <p>&copy; All rights reserved to Valery Boltavsky & Oshri Maayan</p>
+            </footer>
+        </div>
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+          <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+
+
+
+          <script src="http://getbootstrap.com/assets/js/docs.min.js"></script>
+
+    </form>
+</body>
+</html>
